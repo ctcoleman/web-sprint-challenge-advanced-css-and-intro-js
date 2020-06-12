@@ -22,11 +22,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
-5. What is JSON data?
+1. How would you describe acessibility on the web to someone?
+  There are all types of people that are using the internet. Some of these people need assistance reading and understanding the content on the web page. For example, those with limited to no sight depend on screen readers to "view" content on the page. By adding acessibility we make it easier for these programs to display the text as needed.
+2. Talk about 3 different things you can do to ensure your website is accessible?
+1. Adding the lang=en to your html tells the browser that this page is in en format, allowing it to be translated by a screen translator
+2. Adding the alt attribute to images so a description of the images can be read to those with limited sight
+3. Using proper heading levels and semantic HTML to allow the browser to be read by accesibility programs
+
+3. A variable is a container for data. It is used to permenitly or temporarily store bits of info.
+4. functions are used when a block of code needs to be used multiple times. Instead of retyping out the block of code we can just call the function.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -56,8 +60,8 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
-* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+* [] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
+* [x] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
 * [ ] Add CSS animations
@@ -74,6 +78,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your team lead as a reviewer on the pull-request
+- [x] Your team lead will count the project as complete by merging the branch back into master
